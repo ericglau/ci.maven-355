@@ -1,6 +1,15 @@
 # ci.maven-355
 Recreate for WASdev/ci.maven [issue 355](https://github.com/WASdev/ci.maven/issues/355)
 
+## Simple way to recreate NPE
+
+1. Run
+```bash
+$ cd simplepom
+$ mvn package # this passes
+$ mvn package # this fails with NPE
+```
+
 ## Recreate of NPE in issue 355
 
 1. Run 
